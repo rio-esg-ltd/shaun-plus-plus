@@ -1,0 +1,17 @@
+{
+  "name": "shaun-plus-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "speak": "npx dotenv node shaun.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-cli": "^7.3.0",
+    "openai": "^4.12.4",
+    "readline-sync": "^1.4.10"
+  }
+}
