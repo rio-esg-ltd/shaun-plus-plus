@@ -1,13 +1,12 @@
 {
   "name": "shaun-plus-plus",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Bot version of our beloved employee, Shaun Molloy",
+  "main": "shaun.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "speak": "npx dotenv node shaun.js"
   },
-  "author": "",
+  "author": "RIO ESG Ltd.",
   "license": "ISC",
   "dependencies": {
     "dotenv-cli": "^7.3.0",
